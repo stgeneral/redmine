@@ -1,0 +1,8 @@
+@import url(../../../stylesheets/application.css);
+
+/* Issues grid priority column color by priorities */
+tr.odd.priority-5 td.priority, tr.even.priority-5 td.priority { color: #F00; }
+tr.odd.priority-4 td.priority, tr.even.priority-4 td.priority { color: #B00000; }
+tr.odd.priority-3 td.priority, tr.even.priority-3 td.priority { color: orange; }
+/* tr.odd.priority-2 td.priority, tr.even.priority-2 td.priority { color: black; } */
+tr.odd.priority-1 td.priority, tr.even.priority-1 td.priority { color: gray; }
